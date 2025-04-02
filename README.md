@@ -21,9 +21,9 @@ pnpm install
 ```sh
 node index.js <username> [viewerCount] [batchSize]
 ```
-- <username>: The target channel's username (required).
-- [viewerCount]: The total number of virtual viewers to create (default: 50).
-- [batchSize]: The number of viewers created per batch (default: 10).
+- `<username>`: The target channel's username (required).
+- `[viewerCount]`: The total number of virtual viewers to create (default: 50).
+- `[batchSize]`: The number of viewers created per batch (default: 10).
 
 ## Example
 To simulate 100 viewers in batches of 20 for the channel "test_channel":
